@@ -1,0 +1,38 @@
+@import url(http://fonts.googleapis.com/css?family=Ubuntu);
+@import url(http://fonts.googleapis.com/css?family=Poiret+One);
+
+body
+{
+	font-family: "Lucida Grande","Lucida Sans Unicode",Geneva,sans-serif;
+	font-size: 1.4em;
+}
+
+.navbar
+{
+	border-radius: 0;
+}
+
+header
+{
+	height: 500px;
+	width: 100%;
+	background-color: #1E6EA0;
+}
+header .logo
+{
+	color: #FFFFFF;
+	font-size: 80px;
+	text-transform: uppercase;
+	font-family: 'Ubuntu',serif;
+	margin-top: -28px;
+	position: relative;
+}
+
+.message
+{
+	color: #FFFFFF;
+	font-size: 50px;
+	text-transform: uppercase;
+	font-family: 'Poiret One',serif;
+	margin-top: 200px;
+}
