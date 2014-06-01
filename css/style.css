@@ -16,23 +16,73 @@ header
 {
 	height: 500px;
 	width: 100%;
-	background-color: #1E6EA0;
+	/*background-color: #1E6EA0;*/
+	background:url(/images/background.png) #005681 no-repeat;
 }
 header .logo
 {
 	color: #FFFFFF;
-	font-size: 80px;
-	text-transform: uppercase;
-	font-family: 'Ubuntu',serif;
-	margin-top: -28px;
+	background:url(/images/logo.png) no-repeat;
+	margin-top: 5px;
 	position: relative;
+	width: 80px;
+	height: 80px;
 }
 
-.message
-{
+/*Intro Message*/
+.col-md-4.message {
 	color: #FFFFFF;
-	font-size: 50px;
+	font-size: 18px;
 	text-transform: uppercase;
-	font-family: 'Poiret One',serif;
-	margin-top: 200px;
+	margin-top: 30px;
+}
+.line {
+    display: block;
+}
+
+.col-md-4.message h2 {
+    font-size: 60px;
+    font-weight: 900;
+    letter-spacing: -0.01em;
+    text-transform: uppercase;
+}
+
+.col-md-4.message .smallest {
+    font-size: 0.4em;
+    line-height: 1em;
+    font-weight: normal;
+}
+
+.col-md-4.message .specialStyle {
+    color: #625152;
+    background: none repeat scroll 0% 0% #DCD7C5;
+    font-weight: normal;
+    display: inline-block;
+    padding: 0.15em 0.4em;
+    line-height: 1em;
+    letter-spacing: 0.1em;
+    margin-bottom: 0.15em;
+    margin-left: 0.15em;
+}
+
+
+.col-md-4 .actions a.button span {
+    display: block;
+    padding: 1em 2em 1em 0px;
+    background: url('images/ico-arw-brown-right.png') no-repeat scroll right center transparent;
+}
+.col-md-4 .actions a.button:hover {
+    background: none repeat scroll 0% 0% #FFC534;
+    text-decoration: none;
+}
+
+.col-md-4 .actions a.button {
+    background: none repeat scroll 0% 0% #F5A11A;
+    display: inline-block;
+    padding: 0px 1.5em;
+    color: #625152;
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: -0.01em;
+    font-size: 18px;
 }

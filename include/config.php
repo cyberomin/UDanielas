@@ -4,6 +4,7 @@ class Config
 	private $url = "local.uduakdaniel.com";
 	private $title = "Uduak Daniel &mdash; ";
 	private $meta_keywords = "Uduak Daneil, Minister, Pastor, Psalmist, Dominion High Commission, Author";
+
 	private $meta_description = "Uduak Daniel is pastor, psalmist, recording artiste, authour, composer, researcher,
 								speaker and development practitioner. She co-oversees Dominion High Commission 
 								International Church in Nigeria, and is the founder and programme director of 
@@ -13,11 +14,16 @@ class Config
 								decision making bodies in research and public health.";
 
 
-	public $links = array("Home","About","Media","Contact");
+	public $links = array("Home"=>"/","About"=>"about","Media"=>"media","Contact"=>"contact");
 
 	public function getTitle($extras="")
 	{
 		return $this->title." ".$extras;
+	}
+
+	public function getUrl()
+	{
+		return $this->url;
 	}
 
 	public function getMetaDesc()

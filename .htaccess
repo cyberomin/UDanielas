@@ -2,28 +2,18 @@ RewriteEngine On
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule ^([a-zA-Z]*)/?$ goto.php?page=$1
-ErrorDocument 404 PageNotFound
+
+
+RewriteRule ^include/.*$ index.php
+
+ErrorDocument 404 "This page does not exit"
 Options -Indexes
 ####Protect the system from machines with worms
 RewriteRule (cmd|root)\.exe - [F,E=dontlog:1]
 
-##Search Business
-RewriteRule %{QUERY_STRING} search.php?id=$1
-
-##Articles
-RewriteRule ^Articles/([0-9]*)/(.*)$ articles.php?id=$1
-
 ##About
 RewriteRule ^About/([0-9]*)/(.*)$ about.php?id=$1
 
-##Foundation
-RewriteRule ^Foundation/([0-9]*)/(.*)$ foundation.php?id=$1
-
-##Events
-RewriteRule ^Events/([0-9]*) events.php?id=$1
-
-##Album Control
-RewriteRule ^Gallery/([a-zA-Z0-9_]*) gallery.php?album=$1
 
 
 #### To hold and redirect css/images/js files
