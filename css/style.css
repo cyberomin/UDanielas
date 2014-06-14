@@ -3,86 +3,279 @@
 
 body
 {
-	font-family: "Lucida Grande","Lucida Sans Unicode",Geneva,sans-serif;
-	font-size: 1.4em;
-}
-
-.navbar
-{
-	border-radius: 0;
+    background: url(/images/bg.png); 
+    font-family: "proxima-nova","Proxima Nova",sans-serif;
 }
 
 header
 {
-	height: 500px;
-	width: 100%;
-	/*background-color: #1E6EA0;*/
-	background:url(/images/background.png) #005681 no-repeat;
+    width: 100%;
+    background:url(/images/banner.png) repeat-x #3F5576;
+    height: 76px;
+    line-height: 60px;
 }
+
 header .logo
 {
-	color: #FFFFFF;
-	background:url(/images/logo.png) no-repeat;
-	margin-top: 5px;
-	position: relative;
-	width: 80px;
-	height: 80px;
+    color: #FFFFFF;
+    margin-top: 5px;
+    position: relative;
+    padding-right: 10px;
 }
-
-/*Intro Message*/
-.col-md-4.message {
-	color: #FFFFFF;
-	font-size: 18px;
-	text-transform: uppercase;
-	margin-top: 30px;
+header .logo img
+{
+    width: 50px;
+    height: 50px;
+    margin-top: -10px;
 }
-.line {
-    display: block;
-}
-
-.col-md-4.message h2 {
-    font-size: 60px;
-    font-weight: 900;
-    letter-spacing: -0.01em;
+header .logo:after
+{
+    content: "| Uduak Daniels";
+    font-size: 30px;
     text-transform: uppercase;
+    font-family: Ubuntu;
+}
+.navbar
+{
+	border-radius: 0;
+    background:url(/images/navBg.png) repeat-x #263751;
+    border: 0;
+    height: 60px;
+    line-height: 60px;
 }
 
-.col-md-4.message .smallest {
-    font-size: 0.4em;
-    line-height: 1em;
-    font-weight: normal;
+.navbar .container 
+{
+    background-image:url(/images/navBar.png);
+    background-repeat:repeat-x;
+    height:55px;
+    border-left:#44536A solid 1px;
+    border-right:#44536A solid 1px;
+    margin-top:5px;
+    
 }
 
-.col-md-4.message .specialStyle {
-    color: #625152;
-    background: none repeat scroll 0% 0% #DCD7C5;
-    font-weight: normal;
-    display: inline-block;
-    padding: 0.15em 0.4em;
-    line-height: 1em;
-    letter-spacing: 0.1em;
-    margin-bottom: 0.15em;
-    margin-left: 0.15em;
+.nav.navbar-nav li a
+{
+    color:#FFFFFF;
 }
 
+.nav.navbar-nav li
+{
+    width: 100px;
+}
 
-.col-md-4 .actions a.button span {
+/*Home*/
+
+.container.home
+{
+    background-color: #FFFFFF;
+    height: auto;
+    margin-top: -20px;
+    padding: 0;
+}
+
+.carousel,#carousel-example-generic
+{
+    height: 400px;
+    overflow: hidden;
+}
+.carousel-inner,.carousel-inner .item
+{
+    overflow: hidden;
+}
+.container.holder
+{
+    padding: 0;
+}
+.holder
+{
+    /*background-color: #212121;*/
+    /*background-color: #EDEBE2;*/
+    background-color: #FFFFFF;
+    height: 400px;
+}
+.holder .col-md-4
+{
+    padding: 0;
+    margin: 0;
+    text-align: justify;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    padding: 0 5px 0 5px;
+    height: 400px;
+    font-size: 11px;
+    background-color: #FFFFFF;
+}
+.holder .col-md-4 h4
+{
+    color: #FFFFFF;
     display: block;
-    padding: 1em 2em 1em 0px;
-    background: url('images/ico-arw-brown-right.png') no-repeat scroll right center transparent;
+    width: 150px;
+    background-color: #FF4400;
+    padding: 5px;
+    margin: 0;
 }
-.col-md-4 .actions a.button:hover {
-    background: none repeat scroll 0% 0% #FFC534;
-    text-decoration: none;
+.holder .col-md-4 h4.first
+{
+    margin-left: -5px;
+}
+.holder .col-md-4 p
+{
+    font-size: 16px;
+    margin-top: 20px;
+    padding: 0 5px 0 5px;
+}
+/*Music Player Widget*/
+.glyphicon-play
+{
+    color: #FFFFFF;
+}
+.music_player
+{
+    width: 100%;
+    padding-top: 20px;
+}
+.player_header
+{
+    line-height:50px;
+    background-color: #000000;
+    padding: 10px;
+    color: #FFFFFF;
+}
+.player_header .song_title
+{
+    font-weight: bold;
+    width: 120px;
+    display: inline-block;
+    line-height: 15px;
 }
 
-.col-md-4 .actions a.button {
-    background: none repeat scroll 0% 0% #F5A11A;
+.player_header img
+{
+    width: 50px;
+    height: 50px;
+    margin-right:10px;
+}
+.download
+{
     display: inline-block;
-    padding: 0px 1.5em;
-    color: #625152;
-    text-transform: uppercase;
-    font-weight: 900;
-    letter-spacing: -0.01em;
-    font-size: 18px;
+    top: 10px;
+
+}
+.player_controls
+{
+    line-height: 40px;
+    background-color: #1C1C1C;
+    border-bottom: solid 1px #030303; 
+    border-top: solid 1px #373737;
+}
+.player_controls button
+{
+    border: none;
+    background-color: transparent;
+    border-right: solid 1px #000000;
+    padding: 0 15px 0 15px;
+    display: inline-block;
+}
+.player_seek_holder 
+{
+    border-left: solid 1px #373737;
+    display: inline-block;
+    color: #FFFFFF;
+    margin-left: -4px;
+    padding-left: 5px;
+    text-align: right;
+    font-size: 10px;
+    line-height: 40px;
+    width: 260px;
+}
+
+.player_seek_holder .seek
+{
+    height: 6px;
+    width: 180px;
+    background-color: #464849;
+    display: inline-block;
+}
+.play_list
+{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.play_list li
+{
+ 
+    width: 100%;
+    line-height: 30px;
+    background-color: #1C1C1C;
+    border-bottom: solid 1px #030303; 
+    border-top: solid 1px #373737;
+    padding-left: 20px;
+    font-size: 11px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+/* Facebook Widget */
+.facebook-home {
+    position: relative;
+    background: url(/images/d9stripes.png) repeat-x;
+    border: 1px solid #eee;
+    height: auto;
+    overflow: hidden;
+    -webkit-box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.15);
+}
+
+.facebook-home h2, .container h2 {
+    background: url(/images/arrow-red.png) 5px 31px no-repeat;
+    color: #333;
+    font-family: Montserrat, trebuchet, 'trebuchet ms', sans-serif;
+    font-size: 2.2em;
+    line-height: 1;
+    padding: 26px 15px 10px;
+    margin: 0 5px;
+    font-weight: normal;
+    border-bottom: solid 1px #CCCCCC;
+}
+
+/*Footer*/
+.container.footer
+{
+    padding: 0;
+}
+footer {
+    position: relative;
+    border: 1px solid #eee;
+    height: auto;
+    overflow: hidden;
+    -webkit-box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.15);
+    margin-top: 20px;
+    background-color: #FFFFFF;
+    padding: 10px;
+}
+
+.container.about
+{
+    background-color: #FFFFFF;
+    border: solid 1px #CCCCCC;
+    padding: 0;
+    border-top: none;
+    margin-top: -20px;
+}
+.container.about h2
+{
+    margin: 0;
+}
+.container.about .header
+{
+    background-color: #F8F5EE;
+    padding-left: 10px;
+    margin-bottom: 20px;
+    
 }

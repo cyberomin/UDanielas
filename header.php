@@ -25,7 +25,11 @@ $url = substr($_SERVER['REQUEST_URI'],1);
   	<link rel="stylesheet" href="/css/style.css">
   	<link rel="shortcut icon" href="/images/favicon.png">
 
+  	<script src="/js/jquery.js"></script>
+  	<script src="/js/bootstrap.min.js"></script>
 
+  	<script type="text/javascript" src="//use.typekit.net/lmy8fkl.js"></script>
+	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
   	<!--[if lt IE 9]>
   		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
   	<![endif]-->
@@ -35,27 +39,11 @@ $url = substr($_SERVER['REQUEST_URI'],1);
 
 	<header>
 		<div class="container">
-			<div class="logo"></div>
-			
-			<div class="col-md-4 message col-sm-4">
-	            <h2>
-	                <span class="smallest line">
-	                	<span class="specialStyle">Minister</span>
-	                </span>
-	                <span class="line">Psalmist,</span>
-	                <span class="line">Pastor,</span>
-	                <span class="smallest line">Change agent</span>
-	            </h2>
-	            <div class="actions">
-	                <a href="/about" target="_self" class="button animAll" jq-scroll>
-	                	<span class="label">Learn more about Uduak</span>
-	                </a>
-	            </div>
-	        </div>
-
+			<div class="logo">
+				<img src="/images/logo.png">
+			</div>
 		</div>
 	</header>
-
 	<nav class="navbar navbar-default" role="navigation">
 	  	<div class="container-fluid">
 		  	<div class="container">
@@ -67,7 +55,7 @@ $url = substr($_SERVER['REQUEST_URI'],1);
 			        	<span class="icon-bar"></span>
 			        	<span class="icon-bar"></span>
 			      	</button>
-			      	<a class="navbar-brand" href="/">UD</a>
+			      	<!--<a class="navbar-brand" href="/">UD</a>!-->
 			    </div>
 
 			    <!-- Collect the nav links, forms, and other content for toggling -->

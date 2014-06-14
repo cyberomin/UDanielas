@@ -1,6 +1,9 @@
-	<script src="/js/jquery.js"></script>
-  	<script src="/js/bootstrap.min.js"></script>
-
+	
+  	<div class="container footer visible-lg visible-md">
+      <footer>
+          Design - +234803 493 2833
+      </footer>
+    </div>
   	<script>
   		(function(i,s,o,g,r,a,m) {
   			i['GoogleAnalyticsObject'] = r;
@@ -18,12 +21,6 @@
   		ga('create', 'UA-15095601-14', 'uduakdaniel.com');
   		ga('send', 'pageview');
 
-	</script>
-
-	<script type="text/javascript">
-		$(document).ready(function() {
-			console.log(window.location.hash);
-		});
 	</script>
 
 </body>
