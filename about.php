@@ -9,8 +9,10 @@ include_once("header.php");
 
 		<div class="col-md-2 visible-md visible-lg about">
 			<ul class="list-unstyled about">
-				<li><a href="#minister">The Minister</a></li>
-				<li><a href="#musician">The Musician</a></li>
+				<li><a href="#minister">Minister</a></li>
+				<li><a href="#musician">Musician</a></li>
+				<li><a href="#humanitarian">Humanitarian</a></li>
+				<li><a href="#career">Career</a></li>
 			</ul>
 		</div>
 

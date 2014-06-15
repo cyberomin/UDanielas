@@ -1,7 +1,8 @@
 	
   	<div class="container footer visible-lg visible-md">
       <footer>
-          Design - +234803 493 2833
+          &copy; <?php echo gmdate("Y");?> Uduak Daniels. All rights reserved.
+          <span class='pull-right'>Design - +234803 493 2833</span>
       </footer>
     </div>
   	<script>
