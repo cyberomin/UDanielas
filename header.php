@@ -40,7 +40,7 @@ $url = substr($_SERVER['REQUEST_URI'],1);
 	<header>
 		<div class="container">
 			<div class="logo">
-				<img src="/images/logo.png">
+				
 			</div>
 		</div>
 	</header>

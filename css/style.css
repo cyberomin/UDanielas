@@ -30,7 +30,7 @@ header .logo img
 }
 header .logo:after
 {
-    content: "| Uduak Daniels";
+    content: "Uduak Daniel";
     font-size: 30px;
     text-transform: uppercase;
     font-family: Ubuntu;
@@ -275,7 +275,15 @@ footer {
 .container.about .header
 {
     background-color: #F8F5EE;
-    padding-left: 10px;
     margin-bottom: 20px;
-    
+}
+
+.navbar-default .navbar-nav > .active > a, 
+.navbar-default .navbar-nav > .active > a:hover, 
+.navbar-default .navbar-nav > .active > a:focus {
+    color: #FFFFFF;
+    background-color: #204E8D;
+    height: 55px;
+    border-left:#44536A solid 1px;
+    border-right:#44536A solid 1px;
 }

@@ -6,7 +6,15 @@ include_once("header.php");
 		<div class="header">
 			<h2>Musician</h2>
 		</div>
-		<div class="col-md-8 about">
+
+		<div class="col-md-2 visible-md visible-lg about">
+			<ul class="list-unstyled about">
+				<li><a href="#minister">The Minister</a></li>
+				<li><a href="#musician">The Musician</a></li>
+			</ul>
+		</div>
+
+		<div class="col-md-10 about">
 			<div>
 				<p>
 					Uduak Daniel is minister, recording artiste, author, composer, researcher, speaker and development practitioner. She co-oversees Dominion High Commission International Church in Nigeria, and is the founder and Programme Director of Development Options International (DO)- a faith-based initiative. She currently serves with the National Agency for the Control of AIDS (NACA) as the Chief Programme Officer, prevention and social and behavior change communication (SBCC). 
@@ -50,12 +58,7 @@ include_once("header.php");
 			</div>
 
 		</div>
-		<div class="col-md-4 visible-md visible-lg about">
-			<ul class="list-unstyled about">
-				<li><a href="#minister">The Minister</a></li>
-				<li><a href="#musician">The Musician</a></li>
-			</ul>
-		</div>
+		
 	</div>
 	<script type="text/javascript">
 	$(document).ready(function()

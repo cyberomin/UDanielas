@@ -1,0 +1,22 @@
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^([a-zA-Z]*)/?$ goto.php?page=$1
+
+
+RewriteRule ^include/.*$ index.php
+
+ErrorDocument 404 "This page does not exit"
+Options -Indexes
+####Protect the system from machines with worms
+RewriteRule (cmd|root)\.exe - [F,E=dontlog:1]
+
+##About
+RewriteRule ^About/([0-9]*)/(.*)$ about.php?id=$1
+
+
+
+#### To hold and redirect css/images/js files
+RewriteRule images/(.+)?$ images/$1 [NC,L]
+RewriteRule css/(.+)?$ css/$1 [NC,L]
+RewriteRule js/(.+)?$ js/$1 [NC,L]
