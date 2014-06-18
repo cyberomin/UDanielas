@@ -2,7 +2,7 @@
 include_once("header.php");
 ?>
 
-	<div class="container about">
+	<div class="container about special">
 		<div class="header">
 			<h2>Musician</h2>
 		</div>
@@ -57,6 +57,15 @@ include_once("header.php");
 				<p>
 					Uduak’s music is a mix of gospel, jazz, R&B and afro beat. She sings mainly in English, Nigeria’s pidgin English and Ibibio. In it all, her strong, dramatic, powerful and mind-bugling-noted vacals stand out. She looks forward to becoming a celebrated best-selling female vocal someday.
 				</p>
+			</div>
+
+			<div>
+				<h1 id="humanitarian">Humanitarian</h1>
+				<p>
+					Read more about Uduak Daniel’s humanitarian work  on this link 
+					<a href="http://developmentoptions.org.ng" target="_blank">www.developmentoptions.org.ng</a>
+				</p>
+				
 			</div>
 
 		</div>
