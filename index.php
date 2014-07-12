@@ -25,11 +25,16 @@ include_once("header.php");
   			</div>
 		</div>
 	</div>
+	<div class="container welcome">
+		<i class="fa fa-quote-left"></i> Hi there! You are welcome to my website. 
+		This is an interactive site; I hope to share aspects of my life with you and look forward to your feedback too. 
+		Thank you for visiting my site and God bless. <i class="fa fa-quote-right"></i>
+	</div>
 	<div class="container holder">
 		<div class="col-md-4 facebook-home">
 			
-			<h2>Musician</h2>
-			<div class="music_player">
+			<h2><i class="fa fa-music"></i> Musician</h2>
+			<!--<div class="music_player">
 				<div class="player_header">
 					<img src="http://themes.goodlayers2.com/musicclub-boxed/wp-content/uploads/2014/02/album-cover-1-150x150.jpg">
 					<div class="song_title">
@@ -55,22 +60,39 @@ include_once("header.php");
 					<li>3. Jesus</li>
 					<li>4. Love</li>
 				</ul>
-			</div>
+			</div>!-->
+			<p><strong>DISCOGRAPHY</strong><br>
+			Hold On (2002)<br>
+			The Father’s Heart (2006)<br>
+			Uduak Daniel Promo copy (2010)
+
+			<br><br>
+			<a href="/about#musician">Read More</a>
+			</p>
 
 		</div>
 		<div class="col-md-4 facebook-home">
-			<h2>Author</h2>
-			<p>Uduak grew up in a staunch catholic home and loved mass not just because of the latin songs, 
-			but because it was an hour! Even though church attendance was mostly four times in the year – 
-			new year’s day, Easter, Christmas and my birthday, she was made to understand that God reigned 
-			supreme in our family. </p>
+			<h2><i class="fa fa-book"></i> About Uduak</h2>
+			<p>Uduak Daniel is minister, recording artiste, author, composer, researcher, 
+			speaker and development practitioner. She co-oversees Dominion High 
+			Commission International Church in Nigeria, and is the founder and Programme Director of 
+			Development Options International (DO)- a faith-based initiative.<br><br> She currently serves with the 
+			National Agency for the Control of AIDS (NACA) as the Chief Programme Officer, prevention and 
+			social and behavior change communication (SBCC). <br>
+
+			<a href="/about">Read More</a>
+			</p>
 		</div>
 		<div class="col-md-4 facebook-home">
-			<h2>Minister</h2>
+			<h2><i class="fa fa-microphone"></i> Minister</h2>
 			<p>Uduak grew up in a staunch catholic home and loved mass not just because of the latin songs, 
-			but because it was an hour! Even though church attendance was mostly four times in the year – 
+			but because it was an hour! <br> <br>
+
+			Even though church attendance was mostly four times in the year – 
 			new year’s day, Easter, Christmas and my birthday, she was made to understand that God reigned 
-			supreme in our family. </p>
+			supreme in our family.  <br><br>
+			<a href="/about#minister">Read More</a>
+			</p>
 		</div>
 	</div>
 

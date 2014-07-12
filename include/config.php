@@ -1,7 +1,7 @@
 <?php
 class Config 
 {
-	private $url = "local.uduakdaniel.com";
+	private $url = "uduakdaniel.com";
 	private $title = "Uduak Daniel &mdash; ";
 	private $meta_keywords = "Uduak Daneil, Minister, Pastor, Psalmist, Dominion High Commission, Author";
 
@@ -14,7 +14,10 @@ class Config
 								decision making bodies in research and public health.";
 
 
-	public $links = array("Home"=>"/","About"=>"about","Media"=>"media","Contact"=>"contact");
+	public $links = array("Home"=>"/","About"=>"about","Media"=>"media",
+							"Meet Uduak"=>"meet",
+							"Contact"=>"contact",
+							"Blog" => "http://blog.uduakdaniel.com/");
 
 	public function getTitle($extras="")
 	{
@@ -23,6 +26,10 @@ class Config
 
 	public function getUrl()
 	{
+		if ($_SERVER['HTTP_HOST'] != "uduakdaniel.com")
+		{
+			return "local".$this->url;
+		}
 		return $this->url;
 	}
 

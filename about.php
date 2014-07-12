@@ -62,8 +62,17 @@ include_once("header.php");
 			<div>
 				<h1 id="humanitarian">Humanitarian</h1>
 				<p>
-					Read more about Uduak Daniel’s humanitarian work  on this link 
+					Read more about Uduak Daniel’s humanitarian work  on this link <br>
 					<a href="http://developmentoptions.org.ng" target="_blank">www.developmentoptions.org.ng</a>
+				</p>
+				
+			</div>
+
+			<div>
+				<h1 id="career">Career</h1>
+				<p>
+					Find out about Uduak, the career lady.<br>
+					<a href="https://www.linkedin.com/pub/uduak-daniel/28/236/471" target="_blank">LinkedIn</a>
 				</p>
 				
 			</div>

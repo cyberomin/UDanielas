@@ -1,10 +1,22 @@
 @import url(http://fonts.googleapis.com/css?family=Ubuntu);
 @import url(http://fonts.googleapis.com/css?family=Poiret+One);
 
+@font-face {
+    font-family: 'Proxima Nova';
+    src: url('/fonts/proximanova-light-webfont.eot');
+    src: url('/fonts/proximanova-light-webfont.eot?#iefix') format('embedded-opentype'),
+        url('/fonts/proximanova-light-webfont.woff') format('woff'),
+        url('/fonts/proximanova-light-webfont.ttf') format('truetype'),
+        url('/fonts/proximanova-light-webfont.svg#ProximaNovaLight') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+
 body
 {
     background: url(/images/bg.png); 
-    font-family: "proxima-nova","Proxima Nova",sans-serif;
+    font-family: "Proxima Nova", "Helvetica Neue", Helvetica, Arial, sans-serif; 
+    font-size: 16px;
 }
 
 header
@@ -62,7 +74,17 @@ header .logo:after
 
 .nav.navbar-nav li
 {
-    width: 100px;
+    width: auto;
+}
+
+.container.welcome {
+    height: auto;
+    background-color: #EEF1F5;
+    padding: 30px 30px;
+    font-size: 16px;
+    border: solid 1px #31373C;
+    border-top: none;
+    border-bottom: none;
 }
 
 /*Home*/
@@ -228,10 +250,11 @@ header .logo:after
     -webkit-box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.15);
     -moz-box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.15);
     box-shadow: 0px 0px 3px rgba(0, 0, 0, 0.15);
+    font-size: 16px;
 }
 
 .facebook-home h2, .container h2 {
-    background: url(/images/arrow-red.png) 5px 31px no-repeat;
+    /*background: url(/images/arrow-red.png) 5px 31px no-repeat;*/
     color: #333;
     font-family: Montserrat, trebuchet, 'trebuchet ms', sans-serif;
     font-size: 2.2em;
@@ -369,4 +392,107 @@ ul.list-inline li
 .modal-content
 {
     width: 533px;
+}
+
+/*Meet Uduak - Timeline*/
+
+.timeline-container {
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 50px;
+    position: relative;
+    font-size: 14px;
+    height: auto;
+}
+.timeline-container ul {
+
+    list-style: none;
+    height: auto;
+}
+.timeline-container h2 {
+
+    background: transparent;
+    font-family: "Proxima Nova", "Helvetica Neue", Helvetica, Arial, sans-serif; 
+}
+ul.timeline {
+
+    
+    margin: 0 auto;
+    width: 0px;
+    border-left: 1px solid #F00;
+    padding: 90px 0px 0px;
+}
+
+ul.timeline > li {
+    position: relative;
+    width: 455px;
+}
+
+ul.timeline > li:nth-child(even):before {
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+    
+    background-color: #989898;
+    border: solid 7px #273854;
+    content: " ";
+    display: block;
+    height: 10px;
+    left: -8px;
+    line-height: 10px;
+    margin-top: -10px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    width: 10px;
+}
+
+ul.timeline > li:nth-child(odd):after {
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    border-radius: 50%;
+    
+    background-color: #989898;
+    border: solid 7px #273854;
+    content: " ";
+    display: block;
+    height: 10px;
+    right: -72px;
+    line-height: 10px;
+    margin-top: -10px;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    width: 10px;
+}
+
+
+ul.timeline > li:nth-child(odd) {
+
+    left: -520px;
+    position: relative;
+}
+
+ul.timeline > li div {
+
+    
+    background-color: #F8F8F8;
+    border: solid 1px #A4A4A4;
+    font-weight: 300;
+    margin: -30px 40px;
+    padding: 30px;
+    position: relative;
+    width: 375px;
+
+}
+
+ul.timeline > li div h2 {
+    font-weight: 400;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
 }

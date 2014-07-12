@@ -22,14 +22,14 @@ $url = substr($_SERVER['REQUEST_URI'],1);
 
 
   	<link rel="stylesheet" href="/css/bootstrap.min.css">
+  	<link rel="stylesheet" href="/css/font-awesome.min.css">
   	<link rel="stylesheet" href="/css/style.css">
   	<link rel="shortcut icon" href="/images/favicon.png">
 
   	<script src="/js/jquery.js"></script>
   	<script src="/js/bootstrap.min.js"></script>
 
-  	<script type="text/javascript" src="//use.typekit.net/lmy8fkl.js"></script>
-	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+  	
   	<!--[if lt IE 9]>
   		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
   	<![endif]-->
