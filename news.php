@@ -11,7 +11,7 @@ include_once("header.php");
 				<li>
 					<div>
 						<h2>Pastors' Wives Advance Programme (PWAP)</h2>
-						September 2, 2014. <br>
+						February 2015. <br>
 						Theme: Help, I'm a pastor's wife!<br><br>
 						<address>
 							<strong>Dominion High Commission Int'l Church,</strong><br>
@@ -24,7 +24,7 @@ include_once("header.php");
 				<li>
 					<div>
 						<h2>Release and book signing of, "Testimonies of our lives," "Magnify your ministry" and "Faith Based Organisations in Development"</h2>
-						September 2, 2014.<br>
+						February 2015.<br>
 						<address>
 							<strong>Dominion High Commission Int'l Church,</strong><br>
 							47 Ekpo Abasi street,<br>
@@ -36,7 +36,7 @@ include_once("header.php");
 				<li>
 					<div>
 						<h2>"Uduak Daniel" album release and autographing</h2>
-						November 8, 2014,<br>
+						February 2015,<br>
 						<address>
 							<strong>Dominion High Commission Int'l Church,</strong><br>
 							47 Ekpo Abasi street,<br>
@@ -45,19 +45,7 @@ include_once("header.php");
 						</address>
 					</div>
 				</li>
-				<li>
-					<div>
-						<h2>Pastors' Wives Advance Programme (PWAP)</h2>
-						December 2, 2014.<br> 
-						Theme: Life skills for pastors' wives<br><br>
-						<address>
-							<strong>Dominion High Commission Int'l Church,</strong><br>
-							47 Ekpo Abasi street,<br>
-							Calabar South,<br>
-							Nigeria<br>
-						</address>
-					</div>
-				</li>
+				
 				
 				
 			</ul>

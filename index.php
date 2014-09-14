@@ -62,7 +62,7 @@ include_once("header.php");
 
 				$tumblr = new Tumblr();
 				$posts = $tumblr->getPost();
-				$post = $posts[1];
+				$post = $posts[0];
 				echo "<a href='".$post['post_url']."'>".$post['title']."</a><br>";
 				echo substr(strip_tags($post['body']), 0,170)." ...<br/>";
 				echo "<a href='".$post['post_url']."'>Read More</a><br>";

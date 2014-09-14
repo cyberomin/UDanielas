@@ -43,26 +43,34 @@ include_once("header.php");
 
 			<ul class="list-inline media">
 				<li>
-					<img src="/images/album/hold_on.jpg" alt="" class="img-thumbnail img-responsive"
-					data-toggle="tooltip" data-container="body" data-toggle="popover" data-placement="right" 
-					data-content="Miracle / True God / Help That Soul/ Fiak / Judah / Jesus / Only You / Hold On /
-					Lead Me On / My Keeper">
-					<span><strong>Hold On</strong></span>
+					<a href="/holdon">
+						<img src="/images/album/hold_on.jpg" alt="" class="img-thumbnail img-responsive"
+						data-toggle="tooltip" data-container="body" data-toggle="popover" data-placement="right" 
+						data-content="Miracle / True God / Help That Soul/ Fiak / Judah / Jesus / Only You / Hold On /
+						Lead Me On / My Keeper">
+					</a>
+					<span><strong>Hold On <i>(2002)</i></strong></span>
 				</li>
 
 				<li>
-					<img src="/images/album/promo.jpg" alt="" class="img-thumbnail img-responsive"
-					data-toggle="tooltip" data-container="body" data-toggle="popover" data-placement="right" 
-					data-content="Arise Africa / Wonderful thing / Jesus (Medley) ">
-					<span><strong>Uduak Daniel Promo Copy</strong></span>
+					<a href="/tfh">
+						<img src="/images/album/tfh.jpg" alt="" class="img-thumbnail img-responsive"
+						data-toggle="tooltip" data-container="body" data-toggle="popover" data-placement="right" 
+						data-content="Arise Nigeria / The Father's heart / Judah ">
+						<span><strong>The Father's Heart <i>(2006)</i></strong></span>
+					</a>
 				</li>
 
 				<li>
-					<img src="/images/album/tfh.jpg" alt="" class="img-thumbnail img-responsive"
-					data-toggle="tooltip" data-container="body" data-toggle="popover" data-placement="right" 
-					data-content="Arise Nigeria / The Father's heart / Judah ">
-					<span><strong>The Father's Heart</strong></span>
+					<a href="/promo">
+						<img src="/images/album/promo.jpg" alt="" class="img-thumbnail img-responsive"
+						data-toggle="tooltip" data-container="body" data-toggle="popover" data-placement="right" 
+						data-content="Arise Africa / Wonderful thing / Jesus (Medley) ">
+						<span><strong>Uduak Daniel Promo Copy <i>(2010)</i></strong></span>
+					</a>
 				</li>
+
+				
 
 				<!--<li>
 					<img src="/images/album/ud.jpg" alt="" class="img-thumbnail img-responsive"
