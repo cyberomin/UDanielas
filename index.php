@@ -57,7 +57,17 @@ include_once("header.php");
 
 			<div class="col-md-3">
 				<h1 style="color:#364C6E;">TYW Blog</h1>
-				Hi there! You are welcome to my website. This is an interactive site; I hope to share aspects of 
+				<?php 
+				require_once("include/tumblr.php");
+
+				$tumblr = new Tumblr();
+				$posts = $tumblr->getPost();
+				$post = $posts[1];
+				echo "<a href='".$post['post_url']."'>".$post['title']."</a><br>";
+				echo substr(strip_tags($post['body']), 0,170)." ...<br/>";
+				echo "<a href='".$post['post_url']."'>Read More</a><br>";
+				?>
+				
 
 			</div>
 
