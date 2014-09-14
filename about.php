@@ -18,6 +18,7 @@ include_once("header.php");
 
 		<div class="col-md-10 about">
 			<div>
+				<img src="/images/about.jpg" alt="" class="img-thumbnail img-responsive img">
 				<p>
 					Uduak Daniel is minister, recording artiste, author, composer, researcher, speaker and development practitioner. She co-oversees Dominion High Commission International Church in Nigeria, and is the founder and Programme Director of Development Options International (DO)- a faith-based initiative. She currently serves with the National Agency for the Control of AIDS (NACA) as the Chief Programme Officer, prevention and social and behavior change communication (SBCC). 
 				</p>
