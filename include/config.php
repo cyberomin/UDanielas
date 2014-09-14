@@ -14,8 +14,8 @@ class Config
 								decision making bodies in research and public health.";
 
 
-	public $links = array("Home"=>"/","About"=>"about","Media"=>"media",
-							"Meet Uduak"=>"meet",
+	public $links = array("Home"=>"/","Meet Uduak"=>"about","Media"=>"media",
+							"News"=>"news",
 							"Contact"=>"contact",
 							"Blog" => "http://blog.uduakdaniel.com/");
 

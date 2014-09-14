@@ -24,7 +24,8 @@ include_once("header.php");
 		<div class="col-md-2">
 			<ul class="list-unstyled about">
 				<li><a href="#">Videos</a></li>
-				<li><a href="#">Audios</a></li>
+				<li><a href="/audio">Audios</a></li>
+				<li><a href="/books">Books</a></li>
 			</ul>
 		</div>
 		<div class="col-md-10">

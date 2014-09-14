@@ -1,0 +1,27 @@
+<!--<div class="music_player">
+				<div class="player_header">
+					<img src="http://themes.goodlayers2.com/musicclub-boxed/wp-content/uploads/2014/02/album-cover-1-150x150.jpg">
+					<div class="song_title">
+						I love Jesus 
+						<br><span class="glyphicon glyphicon-cloud-download download"></span>
+					</div>
+					
+				</div>
+				<div class="player_controls">
+					<button>
+						<span class="glyphicon glyphicon-play"></span>
+					</button>
+					<div class="player_seek_holder">
+						<div class="seek">
+							
+						</div>
+						(00:00 / 05:03)
+					</div>
+				</div>
+				<ul class="play_list">
+					<li>1. Mercy Me</li>
+					<li>2. Uyai</li>
+					<li>3. Jesus</li>
+					<li>4. Love</li>
+				</ul>
+			</div>!-->

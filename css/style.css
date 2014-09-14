@@ -78,13 +78,15 @@ header .logo:after
 }
 
 .container.welcome {
-    height: auto;
-    background-color: #EEF1F5;
-    padding: 30px 30px;
-    font-size: 16px;
-    border: solid 1px #31373C;
-    border-top: none;
-    border-bottom: none;
+    font-size: 18px;
+    background-color: #FFFFFF;
+    height: 300px;
+    text-align: center;
+}
+.container.welcome div {
+   
+    border-bottom: solid 1px #CCCCCC;
+    padding: 20px 30px 60px 30px;
 }
 
 /*Home*/
@@ -106,16 +108,11 @@ header .logo:after
 {
     overflow: hidden;
 }
-.container.holder
-{
-    padding: 0;
-}
+
 .holder
 {
-    /*background-color: #212121;*/
-    /*background-color: #EDEBE2;*/
     background-color: #FFFFFF;
-    height: 400px;
+    height: 300px;
 }
 .holder .col-md-4
 {
@@ -126,7 +123,6 @@ header .logo:after
     border-bottom-left-radius: 3px;
     padding: 0 5px 0 5px;
     height: 400px;
-    font-size: 11px;
     background-color: #FFFFFF;
 }
 .holder .col-md-4 h4
@@ -138,6 +134,7 @@ header .logo:after
     padding: 5px;
     margin: 0;
 }
+
 .holder .col-md-4 h4.first
 {
     margin-left: -5px;
@@ -263,6 +260,22 @@ header .logo:after
     margin: 0 5px;
     font-weight: normal;
     border-bottom: solid 1px #CCCCCC;
+}
+.facebook-home.social a{
+    display: inline-block;
+    margin-right: 50px;
+}
+
+a.youtube{
+    color: #F80001;
+}
+
+a.twitter{
+    color: #5EAADE;
+}
+
+a.facebook{
+    color: #3C599B;
 }
 
 /*Footer*/

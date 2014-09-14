@@ -1,7 +1,7 @@
 	
   	<div class="container footer visible-lg visible-md">
       <footer>
-          &copy; <?php echo gmdate("Y");?> Uduak Daniels. All rights reserved.
+          &copy; <?php echo gmdate("Y");?> Uduak Daniel. All rights reserved.
           <span class='pull-right'>Design - +234803 493 2833</span>
       </footer>
     </div>
