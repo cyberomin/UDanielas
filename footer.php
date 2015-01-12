@@ -5,6 +5,9 @@
           <span class='pull-right'>Design - +234803 493 2833</span>
       </footer>
     </div>
+    <?php 
+    if ($_SERVER['REMOTE_HOST'] == 'http://uduakdaniel.com') {
+    ?>
   	<script>
   		(function(i,s,o,g,r,a,m) {
   			i['GoogleAnalyticsObject'] = r;
@@ -23,6 +26,7 @@
   		ga('send', 'pageview');
 
 	</script>
-
+  <?php } ?>
+  
 </body>
 </html>

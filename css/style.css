@@ -80,13 +80,9 @@ header .logo:after
 .container.welcome {
     font-size: 18px;
     background-color: #FFFFFF;
-    height: 300px;
+    height: auto;
     text-align: center;
-}
-.container.welcome div {
-   
     border-bottom: solid 1px #CCCCCC;
-    padding: 20px 30px 60px 30px;
 }
 
 /*Home*/
@@ -112,7 +108,8 @@ header .logo:after
 .holder
 {
     background-color: #FFFFFF;
-    height: 300px;
+    height: auto;
+    padding-bottom: 30px;
 }
 .holder .col-md-4
 {
@@ -122,7 +119,7 @@ header .logo:after
     border-bottom-right-radius: 3px;
     border-bottom-left-radius: 3px;
     padding: 0 5px 0 5px;
-    height: 400px;
+    height: auto;
     background-color: #FFFFFF;
 }
 .holder .col-md-4 h4
@@ -514,4 +511,60 @@ ul.timeline > li div h2 {
 .img-responsive.img {
     float: left;
     margin-right: 20px;
+}
+
+.welcome_2015 {
+    background: url(/images/2015-banner.jpg) no-repeat;
+    width: 780px;
+    height: 64px;
+    line-height: 64px;
+    margin: 20px auto;
+    color: #FFFFFF;
+    font-size: 24px;
+}
+
+.news_ticker {
+    height: 30px;
+    line-height: 30px;
+    background-color: #DDF9FD;
+}
+
+.news_ticker span{
+    display: block;
+    float: left;
+    background-color: #374E6F;
+    width: auto;
+    padding: 0 15px 0 15px;
+    margin-right: 20px;
+    color: #FFFFFF;
+}
+.container.ticker {
+    margin: 0;
+    padding: 0;
+}
+
+.word-for-month {
+    border-top: solid 1px #CCCCCC;
+}
+
+
+
+a.button {
+    background: none repeat scroll 0% 0% #425D90 !important;
+    border-color: #425D90 !important;
+    padding: 0.382em 1.618em;
+    border: medium none;
+    color: #FFF !important;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    cursor: pointer;
+    overflow: visible;
+    width: 150px;
+    line-height: 1.618em;
+    background: none repeat scroll 0% 0% padding-box #2293E2;
+    box-sizing: border-box;
+    border-radius: 300px;
+    margin-top: 5px;
+    font-size: 14px;
 }
