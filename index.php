@@ -94,7 +94,7 @@ include_once("header.php");
 			</div>
 
 			<div class="col-md-3">
-				<h1 style="color:#364C6E;">UD Bits</h1>
+				<h1 style="color:#364C6E;">The Word</h1>
 				<?php 
 				
 				

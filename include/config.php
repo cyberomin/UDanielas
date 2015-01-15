@@ -19,7 +19,7 @@ class Config
 							"Media" => "media",
 							"News" => "news",
 							"Contact" => "contact",
-							"UD Bits" => "http://blog.uduakdaniel.com");
+							"The Word" => "http://blog.uduakdaniel.com");
 
 	public function getTitle($extras="")
 	{

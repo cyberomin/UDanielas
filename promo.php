@@ -45,6 +45,14 @@ include_once("header.php");
 					<li>Jesus Medley</li>
 					<li>Arise Africa Reprise</li>
 				</ol>
+
+
+				<nav>
+				  	<ul class="pager">
+				    	<li class="previous"><a href="/tfh"><span aria-hidden="true">&larr;</span> Previous</a></li>
+				  	</ul>
+				</nav>
+
 			</div>
 			
 			

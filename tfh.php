@@ -50,11 +50,15 @@ include_once("header.php");
 					<li>Arise Nigeria Africana</li>
 					<li>North, South, East and West</li>
 				</ol>
+
+				<nav>
+				  	<ul class="pager">
+				    	<li class="previous"><a href="/holdon"><span aria-hidden="true">&larr;</span> Previous</a></li>
+				    	<li class="next"><a href="/promo">Next <span aria-hidden="true">&rarr;</span></a></li>
+				  	</ul>
+				</nav>
 			</div>
-			
-			
 		</div>
-		<br><br>
 	</div>
 
 <?php

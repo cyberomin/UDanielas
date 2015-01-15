@@ -51,11 +51,17 @@ include_once("header.php");
 					<li>Lead Me On</li>
 					<li>My Keeper</li>
 				</ol>
+			
+				<nav>
+				  	<ul class="pager">
+				    	<!--<li class="previous"><a href="#"><span aria-hidden="true">&larr;</span> Previous</a></li>!-->
+				    	<li class="next"><a href="/tfh">Next <span aria-hidden="true">&rarr;</span></a></li>
+				  	</ul>
+				</nav>
 			</div>
 			
-			
 		</div>
-		<br><br>
+		
 	</div>
 
 <?php
